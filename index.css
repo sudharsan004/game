@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+    background:linear-gradient(-45deg,red,blue,purple) ;
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+.btn{
+    width: 65px;
+    height: 65px;
+    font-size: 25px;
+    font-family: cursive;
+    margin: 2;
+    border:solid 1px lightblue ;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.btn2{
+    width: 65px;
+    height: 65px;
+    font-size: 25px;
+    font-family: cursive;
+    margin: 2;
+    border:solid black ;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+.btn1{
+    width: 135px;
+    height: 65px;
+    font-size: 20px;
+    margin-left: 23px;
+    padding-left: 3px;
+    font-family: cursive;
+    border:solid 1px lightblue ;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.input{
+    width: 257px;
+    margin: 2;
+    font-size: 25px;
+    padding: 5px;
+    border: 0;
+    background-color: black;
+    color: salmon;
+}
+div{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+@keyframes change{
+0%{
+    background-position: 0% 50%;
+}
+50%{
+    background-position: 100% 50%;
+}
+100%{
+    background-position: 0% 50%;
+    
+}
+}
